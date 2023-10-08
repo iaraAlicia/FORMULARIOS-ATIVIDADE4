@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body link="black" vlink="black" alink="red" text="black">
+    <form action="#" method="get"></form>
+        <header>
+            <table bgcolor="#FFFAFA" cellspacing="20" width="100%">
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="Exercicio1.html">Exercicio1</a></td>
+                    <td><a href="Exercicio2.html">Exercicio2</a></td>
+                    <td><a href="Exercicio3.html">Exercicio3</a></td>
+                    <td><a href="Exercicio4.html">Exercicio4</a></td>
+                    <td><a href="Exercicio5.html">Exercicio5</a></td>
+                </tr>
+            </table> 
+        </header>
+
+        <form action="Exercicio2.html" method="GET">
+        <table border="2">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+            <tr>
+                <td><label for="nome">Name:</label> </td>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="nome">Pizza topping:</label> </td>
+                <td>
+                    <input type="radio" name="SabPizz" value="Supreme">Supreme <br>
+                    <input type="radio" name="SabPizz" value="vegetarion">vegetarion <br>
+                    <input type="radio" name="SabPizz" value="Hawaiian">Hawaiian <br>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="PizzSouce">Pizza Sauce</label></td>
+                <td> 
+                    <select id="PizzSouce" name="PizzSouce">
+                        <option value="Tomate" selected>Tomate</option>
+                        <option value="Calabresa">Calabresa</option>
+                        <option value="Portuguesa">Portuguesa</option>
+                        <option value="Marguerita">Marguerita</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="OptExt">Optional Extras</label></td>
+                <td>
+                    <input type="checkbox">Extra cheese
+                    <input type="checkbox">Gluten free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="OptExt">Delivery instruction:</label>
+                    <br>
+                    <textarea name="DelInstr" id="OptExt" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send my Order"></td>
+
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
